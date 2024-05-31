@@ -1,0 +1,57 @@
+.main{
+    margin-top: 100px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns:  repeat(3, 550px);
+    grid-template-rows: repeat(3, 300px);
+    gap: 100px;
+}
+
+.Topic{
+    width: 350px;
+    height: 350px;
+    box-shadow: 10px 10px 100px 10px rgba(233, 233, 233, 0.864);
+}
+
+
+
+.Topic img{
+    margin: 7.5px;
+    margin-right: 15px;
+    height: 150px;
+    width: 95.5%;
+}
+
+.Topic-text{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    margin-left: 7.5px;
+}
+
+.Topic-name{
+    color: purple;
+}
+
+
+
+
+.Topic-main-name{
+    font-size: 20px;
+}
+
+
+
+.Topic-description{
+    font-size: 12px;
+    color: rgb(127, 127, 127);
+}
+
+#Arrow-icon{
+
+position: relative;
+
+bottom: 45px;
+left: 300px;
+
+}
